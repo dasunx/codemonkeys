@@ -1,0 +1,43 @@
+.xtext-wrap{
+    background-color: #6c63fc;
+    font-weight: 500;
+    padding: 0 12px;
+    border-radius: 12px;
+    color: white;
+}
+
+.landing-text{
+    font-weight: 100;
+}
+
+.mt-8{
+    margin-top: 8%;
+}
+
+@media only screen and (max-width: 845px) {
+    .mq-text-center{
+        margin-top: 5%;
+        text-align: center !important;
+    }
+}
+
+.login-signup-btn{
+    background-color: white;
+    color:black !important;
+    transition: all ease-in 300ms;
+}
+
+.login-signup-btn:hover{
+    background-color: #6c63ff;
+    font-weight: 500 !important;
+    color: white !important;
+}
+
+.main-shadow{
+    border: 2px solid white;
+    background-color:var(--bg);
+    color: var(--text-color);
+    border-radius: 52px;
+    padding-top:8% !important;
+    
+}
