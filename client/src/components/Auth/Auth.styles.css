@@ -1,0 +1,17 @@
+.to-other-link{
+    color: var(--main-text-color) !important;
+    font-size: 1rem;
+    text-decoration: underline;
+}
+
+.shadow-box{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 15px;
+}
+
+.login-quote{
+    border-top: 1px solid #dcdcdc;
+    font-weight: 100;
+    font-size:1rem;
+    font-style: italic;
+}

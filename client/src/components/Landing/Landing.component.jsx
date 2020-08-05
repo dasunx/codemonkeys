@@ -1,9 +1,14 @@
 import React from 'react'
 import Dev from '../../icons/dev.svg';
 import './Landing.styles.css';
-import {Link} from 'react-router-dom';
+import {Link, Redirect} from 'react-router-dom';
+import { connect } from 'react-redux';
+import PropTypes from 'prop-types'
 
-const Landing = () => {
+const Landing = ({isAuthenticated}) => {
+    if(isAuthenticated){
+        return <Redirect to='/profile'/>
+    }
     return (
         <div className="container p-5 mt-8 main-shadow" height={window.screen.height}>
             <div className="row m-0">
@@ -22,4 +27,12 @@ const Landing = () => {
     )
 }
 
-export default Landing;
+Landing.propTypes = {
+    isAuthenticated: PropTypes.bool
+}
+
+const mapStateToProps = state => ({
+    isAuthenticated: state.auth.isAuthenticated
+})
+
+export default connect(mapStateToProps)(Landing);
