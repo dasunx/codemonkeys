@@ -1,0 +1,6 @@
+{
+	"mongoURI": "mongodb+srv://dasun:test1234@clothingcluster-b5tgw.mongodb.net/test?retryWrites=true&w=majority",
+	"jwtSecret": "secrettoken",
+	"githubClientId": "f7317a6eccc7985375f4",
+	"githubSecret": "6754aed153959e0b933e46539f135e2de429e7ce"
+}
