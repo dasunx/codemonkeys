@@ -1,1 +1,1 @@
-Simple social network for developers
+Simple social network for developerrs
